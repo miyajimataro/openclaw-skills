@@ -1,0 +1,5 @@
+*.log
+*.tmp
+client_secret.json
+.env
+.DS_Store
