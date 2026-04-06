@@ -33,7 +33,7 @@ Common commands
 ## Scheduling Rules (IMPORTANT)
 
 - When the user wants to add a schedule:
-  - ALWAYS use: gog calendar create primary
+  - ALWAYS use: gog calendar create <calendarId> --summary "title" --from <iso> --to <iso>`
   - Extract title from user input
   - Convert relative dates (today, tomorrow) into ISO8601 format
   - Use Asia/Tokyo timezone (+09:00)
